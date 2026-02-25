@@ -2,10 +2,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import users, tasks, notes, ai_chatbot, stats, habits, credentials, focus, preferences, google_auth
 from services.scheduler import start_scheduler
+from mangum import Mangum
 import uvicorn
 import os
 
 app = FastAPI(title="AI Smart Daily Work Assistant")
+handler = Mangum(app)
 
 # CORS Configuration
 app.add_middleware(

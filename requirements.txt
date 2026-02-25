@@ -13,3 +13,4 @@ google-generativeai
 python-dotenv
 emails
 twilio
+mangum
