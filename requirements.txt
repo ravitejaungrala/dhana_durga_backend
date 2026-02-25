@@ -15,3 +15,5 @@ emails
 twilio
 dnspython
 playwright
+google-auth-oauthlib
+google-api-python-client
