@@ -16,10 +16,9 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://daily-repot.onrender.com",
-        "https://daily-task-frontend-mu.vercel.app",
-        "https://daily-task-frontend-oumq.onrender.com",
-        "https://frontend-daily-task.onrender.com",
-        "https://frontend-daily-task.onrender.com/"
+        "https://dev.d3qy4nqtek7ni7.amplifyapp.com/login/",
+        "https://dev.d3qy4nqtek7ni7.amplifyapp.com/",
+        "https://dev.d3qy4nqtek7ni7.amplifyapp.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
