@@ -20,7 +20,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt -t package --no-cache-dir
-          cp main.py package/
+          cp -r auth routes services main.py models.py database.py package/
           find package -name "__pycache__" -type d -exec rm -rf {} +
 
       - name: Zip files
